@@ -1,9 +1,33 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* root style here */
+:root{
+  /* --font-head: 'Michroma', sans-serif;
+  --font-base: 'PT Sans', sans-serif;
+  --text-head-color: #141c3a;
+
+  --primary-color: #7510F7;
+  --white-color: #fff; */
+
+}
+
+@layer base {
+  html{
+    font-family: Michroma, sans-serif;
+  }
+}
+/* root style end */
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: var(--font-base);
 }
 
 a {
@@ -13,4 +37,23 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.carousel .control-dots {
+  padding-left: 5px !important;
+  outline: 0;
+  bottom: 5% !important;
+  
+}
+.carousel .control-dots .dot {
+  box-shadow: none !important;
+  background: #7510F7 !important;
+  outline: 0;
+}
+.carousel.carousel-slider .control-arrow {
+  /* background: #7510F7 !important;
+  height: 50px !important;
+  position: absolute;
+  top: 35% !important; */
+  display: none;
 }
