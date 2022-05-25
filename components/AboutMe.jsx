@@ -17,7 +17,12 @@ const AboutMe = () => {
 						<div
 							key={work.title}
 							className='w-[100%] md:w-[33%] md:h-[80vh] p-10 text-center flex flex-col items-center justify-start bg-white '>
-							<Image src={work.img} width={50} height={50} />
+							<Image
+								src={work.img}
+								width={50}
+								height={50}
+								alt='workImg'
+							/>
 							<p className='text-2xl font-bold my-5'>{work.title}</p>
 							<p className='text-lg font-light'>{work.desc}</p>
 							<p className='mt-10 text-primary-color text-lg'>
