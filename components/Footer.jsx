@@ -23,16 +23,16 @@ const Footer = () => {
 				</p>
 				<div className='flex mb-20'>
 					{[
-						<AiOutlineTwitter key={index} />,
-						<AiOutlineDribbble key={index} />,
-						<FaLinkedinIn key={index} />,
-						<FaAngellist key={index} />,
-						<FaPinterest key={index} />,
-						<AiOutlineMail key={index} />,
+						{ icon: <AiOutlineTwitter /> },
+						{ icon: <AiOutlineDribbble /> },
+						{ icon: <FaLinkedinIn /> },
+						{ icon: <FaAngellist /> },
+						{ icon: <FaPinterest /> },
+						{ icon: <AiOutlineMail /> },
 					].map((icon, index) => (
 						<Link href='/' className='' key={index}>
 							<span className='w-[40px] h-[40px] border-2 border-gray-400 hover:border-white hover:bg-white rounded-full flex items-center justify-center mx-3 text-white text-lg sm:text-2xl cursor-pointer hover:text-primary-color ease-in-out duration-300'>
-								{icon}
+								{icon.icon}
 							</span>
 						</Link>
 					))}
