@@ -12,8 +12,8 @@ const Work = () => {
 					My Recent Work
 				</h3>
 				<p className='text-lg text-center px-5'>
-					Here are a few design projects I've worked on recently. Want
-					to see more?{' '}
+					Here are a few design projects I&apos;ve worked on recently.
+					Want to see more
 					<span className='text-primary-color font-medium'>
 						Email me.
 					</span>
@@ -31,6 +31,7 @@ const Work = () => {
 							height='250'
 							layout='responsive'
 							objectFit='contain'
+							alt='cardImg'
 						/>
 						<div className='absolute top-0 bottom-0 right-5 left-5 sm:right-1 sm:left-1 z-10 flex flex-col  justify-center items-center opacity-0 hover:opacity-100 bg-[#141c3a] rounded-lg ease-in-out duration-500 '>
 							<p className='text-white text-lg text-center px-5 my-5'>

@@ -19,7 +19,7 @@ const Testimonials = () => {
 				Testimonials
 			</h3>
 			<p className='text-center mx-5 md:mx-0 my-2 text-2xl text-gray-500 font-light'>
-				People I've worked with have said some nice things..
+				People I&apos;ve worked with have said some nice things..
 			</p>
 			<Carousel
 				showArrows={true}
@@ -38,10 +38,10 @@ const Testimonials = () => {
 						alt='personImg'
 					/>
 					<p className='w-[50%] text-black font-base text-md md:text-lg my-5'>
-						“Matt was a real pleasure to work with and we look forward
-						to working with him again. Hes definitely the kind of
-						designer you can trust with a project from start to
-						finish.”
+						&lsquo;Matt was a real pleasure to work with and we look
+						forward to working with him again. Hes definitely the kind
+						of designer you can trust with a project from start to
+						finish.&lsquo;
 					</p>
 					<span className='text-black font-bold text-lg font-base'>
 						Tihomir Milenkovic
@@ -56,10 +56,10 @@ const Testimonials = () => {
 						alt='personImg'
 					/>
 					<p className='w-[50%] text-black font-base text-md md:text-lg my-5'>
-						“Matt was a real pleasure to work with and we look forward
-						to working with him again. Hes definitely the kind of
-						designer you can trust with a project from start to
-						finish.”
+						&lsquo;Matt was a real pleasure to work with and we look
+						forward to working with him again. Hes definitely the kind
+						of designer you can trust with a project from start to
+						finish.&lsquo;
 					</p>
 					<span className='text-black font-bold text-lg font-base'>
 						Tijana Milenkovic
